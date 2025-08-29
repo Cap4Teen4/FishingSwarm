@@ -1,0 +1,8 @@
+{
+  "appName": "Swarm Fishing Helper",
+  "appUrl": "index.html",
+  "description": "Calculates fish needed to level up at swarm fishing.",
+  "iconUrl": "icon.png",
+  "defaultWidth": 250,
+  "defaultHeight": 200
+}

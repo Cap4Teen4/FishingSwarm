@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Swarm Fishing Helper</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>🎣 Swarm Fishing Calculator</h2>
+
+  <label>Current Level: 
+    <input type="number" id="level" min="1" max="120">
+  </label><br>
+
+  <label>Current XP: 
+    <input type="number" id="xp">
+  </label><br>
+
+  <label>Avg XP per fish: 
+    <input type="number" id="xpFish" value="400">
+  </label><br>
+
+  <button onclick="calculate()">Calculate</button>
+
+  <p id="result"></p>
+
+  <script src="main.js"></script>
+</body>
+</html>
